@@ -355,7 +355,7 @@
                         <div class="carousel-caption d-md-block">
                             <div class="slider_title">
                                 <h1>Konsultasi Layanan Service</h1>
-                                <h4>Mencakup penilaian kebutuhan klien, rekomendasi solusi, perencanaan implementasi, serta pelatihan dan dukungan teknis. Proses ini juga mencakup uji coba dan validasi solusi, manajemen risiko, evaluasi kinerja, dan dokumentasi proyek untuk memastikan bahwa solusi yang diberikan optimal dan memenuhi tujuan bisnis klien.</h4>
+                                <h4>Proses proyek mencakup penilaian kebutuhan klien, rekomendasi solusi, perencanaan, pelatihan, uji coba, manajemen risiko, evaluasi, dan dokumentasi untuk memastikan solusi optimal dan sesuai tujuan bisnis.</h4>
                             </div>
                         </div>
                     </div>
