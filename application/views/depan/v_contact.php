@@ -69,7 +69,7 @@
                         <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                             <span  class="icon-menu"></span>
                         </button>
-                        <a style="padding-left: 5px;" href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="75%;" src="<?php echo base_url().'theme/images/logo-dark.png'?>"></a>
+                        <a style="padding-left: 5px;" href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="35%;" src="<?php echo base_url().'theme/images/iegcode.png'?>"></a>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" style="float: right;">
                             <ul class="navbar-nav">
                                 <li class="nav-item">

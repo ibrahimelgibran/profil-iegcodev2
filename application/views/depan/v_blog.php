@@ -26,7 +26,9 @@
         }
     ?>
 </head>
-
+<style>
+    
+</style>
 <body>
   <!--============================= HEADER =============================-->
    <!--============================= HEADER =============================-->
@@ -133,11 +135,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-              <?php echo $this->session->flashdata('msg');?>
+              <?php echo $this->session->flashdata('msg');?>    
               <?php foreach ($data->result() as $row) : ?>
                 <div class="blog-single-item">
                     <div class="blog-img_block">
-                        <img src="<?php echo base_url().'assets/images/'.$row->tulisan_gambar;?>" class="img-fluid" alt="blog-img">
+                        <img src="<?php echo base_url().'assets/images/'.$row->tulisan_gambar;?>" class="img-fluid" alt="blog-img" style="witdh:100%">
                         <div class="blog-date">
                             <span><?php echo $row->tanggal;?></span>
                         </div>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -168,7 +169,7 @@
           3. Pihak bersangkutan akan di berikan konfirmasi balasan atas pengajuan form.<br>
         </span>
         
-        <p><br><a href="https://profil.iegcode.com/pendaftaran" class="btn btn-primary btn1">Link Pendaftaran Online</a>
+        <p><br><a href="https://profil.iegcode.com/pendaftaran" class="btn btn-primary btn1">Link Pendaftaran Online</a><br><br>
             <a href="theme/brosur/iegacademy.pdf"  class="btn btn-primary btn2" download>Download Brosur</a></p>
         </div>
             </div>

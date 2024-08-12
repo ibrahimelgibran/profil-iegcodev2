@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Platform untuk software house dan situs web e-commerce untuk bisnis Anda yang memenuhi kebutuhan Anda 🛒.">
     <title>SELAMAT DATANG DI PROFIL IEGCODE</title>
     <link rel="shorcut icon" href="<?php echo base_url() . 'theme/images/ieg.png' ?>">
     <!-- Bootstrap CSS -->
@@ -32,12 +33,26 @@
     <style type="text/css">
         body {
             overflow-x: hidden;
+            /* Menyembunyikan scroll horizontal */
+            margin: 0;
+            /* Menghilangkan margin default dari body */
+            padding: 0;
+            /* Menghilangkan padding default dari body */
+        }
+
+        .container {
+            max-width: 100%;
+            /* Menyediakan batasan lebar maksimal pada kontainer utama */
+            overflow: hidden;
+            /* Menghindari elemen meluber dari kontainer */
         }
 
         .marg {
             margin-top: 21px;
             padding-left: 15%;
             padding-right: 15%;
+            box-sizing: border-box;
+            /* Memastikan padding dihitung dalam lebar total elemen */
         }
 
         .btn-default {
@@ -48,6 +63,8 @@
             font-size: 18px;
             padding: 16px 36px;
             border-radius: 0;
+            box-sizing: border-box;
+            /* Memastikan padding dihitung dalam lebar total elemen */
         }
 
         .btn-default:hover {
@@ -60,11 +77,16 @@
             border-radius: 15px 15px 15px 70px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             min-width: 380px;
-            width: 380px;
+            width: 100%;
+            /* Mengatur lebar menjadi 100% agar responsif */
+            max-width: 380px;
+            /* Menetapkan lebar maksimal untuk elemen */
             height: 250px;
             background-color: #f2f2f2;
             margin: auto;
             margin-top: 30px;
+            box-sizing: border-box;
+            /* Memastikan padding dan border dihitung dalam lebar total elemen */
         }
 
         .sle a {
@@ -78,39 +100,36 @@
         .d-block {
             width: 100%;
             max-height: 200px;
-            top: 0;
-            bottom: 0;
             margin: auto;
+            object-fit: cover;
+            box-sizing: border-box;
+            /* Memastikan padding dihitung dalam lebar total elemen */
         }
 
-        @media screen and (max-width : 500px) {
+        @media screen and (max-width: 500px) {
             .d-block {
-                width: 100%;
                 max-height: 100px;
-                top: 0;
-                bottom: 0;
-                margin: auto;
             }
         }
 
         .partimg {
-
-            width: auto;
+            width: 100%;
             height: auto;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
+            display: block;
+            /* Menghindari gambar melebihi kontainer */
+            box-sizing: border-box;
+            /* Memastikan padding dan border dihitung dalam lebar total elemen */
         }
 
         /* Six columns side by side */
         .column {
             float: left;
             width: 16.66%;
+            box-sizing: border-box;
+            /* Memastikan padding dan border dihitung dalam lebar total elemen */
         }
 
-        /* Add a transparency effect for thumnbail images */
+        /* Add a transparency effect for thumbnail images */
         .demo {
             opacity: 0.6;
         }
@@ -138,7 +157,82 @@
             border-color: #267ae8;
             font-size: 26px;
         }
+
+        @media (max-width: 767px) {
+            .header-top_address {
+                text-align: center;
+            }
+
+            .header-top_list {
+                margin-bottom: 10px;
+            }
+
+            .navbar-brand img {
+                width: 50%;
+            }
+
+            .carousel-item img {
+                max-height: 400px;
+                object-fit: cover;
+                width: 100%;
+            }
+
+            .btn-default {
+                font-size: 16px;
+                padding: 12px 24px;
+            }
+
+            .jurusan-box {
+                width: 100%;
+                margin: 10px 0;
+                padding: 15px;
+                box-sizing: border-box;
+                /* Memastikan padding dihitung dalam lebar total elemen */
+            }
+
+            .partimg {
+                width: 100%;
+                height: auto;
+            }
+
+            .column {
+                width: 100%;
+                float: none;
+            }
+
+            .slebew {
+                font-size: 22px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            h4 {
+                font-size: 16px;
+            }
+        }
+
+        .carousel-inner img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .marg {
+            margin: 15px;
+            padding: 0 10%;
+        }
+
+        .btn-default {
+            padding: 12px 24px;
+        }
     </style>
+
 
 </head>
 
@@ -265,17 +359,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- 
-                <div class="carousel-item">
-                    <img class="d-block" src="<?php echo base_url() . 'theme/images/bg1.png' ?>" alt="Third slide" style="opacity: 10;min-height:600px;max-height: 800px;">
-                    <div class="carousel-caption d-md-block">
-                        <div class="slider_title">
-                            <h1>Visi dan Misi</h1>
-                            <h4>Menjadi sekolah berbasis Entrepreneur yang Unggul dalam Ilmu, Terampil dalam Amal, Mulia dalam Akhlak, serta Berdaya Saing di Era Global.<br>Menyelenggarakan kegiatan pendidikan dan pelatihan yang bermutu, efektif dan efisien dalam pengembangan kegiatan Entrepreneurship.</h4>
-                            
-                        </div>
-                    </div>
-                </div> -->
                 </div>
                 <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
                     <i class="icon-arrow-left fa-slider" aria-hidden="true"></i>
@@ -330,9 +413,39 @@
                             <img src="<?php echo base_url() . 'theme/images/p6.png' ?>" style="width: 100%; padding-top: 10%; border-radius: 50px;">
                         </div>
                     </div>
-
                 </div>
     </section>
+    <style>
+        .our_courses p {
+            line-height: 1.6;
+            /* Menambah jarak antara baris untuk keterbacaan */
+            padding: 0 40px;
+            /* Memberikan sedikit padding di kiri dan kanan */
+            text-align: justify;
+            /* Membuat teks rata kiri dan kanan */
+        }
+
+        /* CSS untuk menyesuaikan paragraf pada layar ponsel */
+        @media only screen and (max-width: 767px) {
+            .our_courses p {
+                font-size: 14px;
+                /* Mengurangi ukuran font pada layar kecil */
+                line-height: 1.6;
+                /* Menambah jarak antara baris untuk keterbacaan */
+                padding: 0 40px;
+                /* Memberikan sedikit padding di kiri dan kanan */
+                text-align: justify;
+                /* Membuat teks rata kiri dan kanan */
+            }
+
+            .our_courses h2 {
+                font-size: 24px;
+                /* Menyesuaikan ukuran judul */
+                margin-bottom: 20px;
+                /* Mengurangi jarak bawah */
+            }
+        }
+    </style>
 
 
     <section class="event" style="box-shadow: rgba(0, 0, 0, 0.56) 0px 20px 90px 4px;">
@@ -347,23 +460,23 @@
         <div class="container" style="" align="center">
 
             <div class="row">
-                <div class="jurusan-box" style="position: relative;">
-                    <div class="row" style="padding-left: 50px;margin-top: 21px;padding-right: 50px;">
-                        <div class="row" style="margin-bottom: 13px;height: 100px;">
-                            <img src="<?php echo base_url() . 'theme/images/iegacademy.png' ?>" style="width: 80px;height: 80px;">
-                            <div class="row" style="margin-left: 9px;margin-top: 30px;">
-                                <h4 style="margin-left: 13px;"><b>IEGACADEMY</b></h4>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <p align="left">Platform pembelajaran online berbagai kursus untuk meningkatkan keterampilan Anda melalui iegcode.</p>
-                        </div>
-                        <div class="row sle" style="position: absolute;  bottom: 0;">
-                            <p style="margin-left: 190px;"><a href="<?php echo site_url('pendaftaran'); ?>">Selengkapnya <i class='fa fa-arrow-right'></i></a></p>
+                <div class="jurusan-box">
+                    <div class="row mt-3" style="margin-bottom: 13px;height: 100px;">
+                        <img src="<?php echo base_url() . 'theme/images/iegacademy.png' ?>" style="width: 80px;height: 80px;">
+                        <div class="row" style="margin-left: 9px;margin-top: 30px;">
+                            <h4 style="margin-left: 13px;"><b>IEGACADEMY</b></h4>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <p align="left">Platform pembelajaran online berbagai kursus untuk meningkatkan keterampilan Anda melalui iegcode.</p>
+                    </div>
+
+                    <div class="row sle">
+                        <p style="margin-left: 190px;"><a href="<?php echo site_url('pendaftaran'); ?>">Selengkapnya <i class='fa fa-arrow-right'></i></a></p>
+                    </div>
                 </div>
+
                 <!-- <div class="jurusan-box" style="position: relative;">
                     <div class="row" style="padding-left: 50px;margin-top: 21px;padding-right: 50px;">
                         <div class="row" style="margin-bottom: 13px;height: 100px;">
@@ -382,9 +495,35 @@
                     </div>
                 </div> -->
             </div>
-
         </div>
     </section>
+    <style>
+        .jurusan-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            padding-left: 40px;
+            padding-right: 50px;
+            margin-top: 21px;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .jurusan-box {
+                margin-left: 5px;
+                padding-left: 20px;
+                /* Mengurangi padding untuk layar kecil */
+                padding-right: 20px;
+            }
+
+            .jurusan-box .row.sle {
+                margin-left: 0;
+                margin-top: 20px;
+                text-align: center;
+                /* Menyelaraskan teks ke tengah */
+            }
+        }
+    </style>
 
     <!--============================= EVENTS =============================-->
     <section class="our_courses" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;">
@@ -393,7 +532,7 @@
             <div class="row">
 
                 <div class="col-lg-6">
-                    <h2 class="text-center">Agenda</h2>
+                    <h2 class="text-center">Agenda 🔖</h2>
                     <div class="row">
                         <div class="col-md-12">
                             <?php foreach ($agenda->result() as $row): ?>
@@ -415,7 +554,7 @@
 
                 </div>
                 <div class="col-lg-6">
-                    <h2 class="text-center">Pengumuman</h2>
+                    <h2 class="text-center">Pengumuman 📌</h2>
                     <div class="event-img2">
                         <?php foreach ($pengumuman->result() as $row) : ?>
                             <div class="row">
@@ -424,7 +563,7 @@
                                     <h3><a style="color: #000000;" href="<?php echo site_url('pengumuman'); ?>"><?php echo $row->pengumuman_judul; ?></a></h3>
                                     <span style="color:#047afe"><?php echo $row->tanggal; ?></span>
                                     <p><?php echo limit_words($row->pengumuman_deskripsi, 10) . '...'; ?></p>
-
+                                    <hr class="event_line">
                                 </div><!-- // end .col-sm-7 -->
                             </div><!-- // end .row -->
                         <?php endforeach; ?>
@@ -434,179 +573,107 @@
         </div>
     </section>
 
-    <!-- <section class="clearfix about about-style2">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-12">
-                    <h2>Client</h2>
-                    <div id="carouselExampleControls" class="carousel slide">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="d-flex justify-content-around">
-                                    <a href="https://www.smksmuhammadiyahgamping.sch.id/">
-                                        <img src="<?php echo base_url() . 'theme/images/eskamuga.png' ?>" class="d-block img-fluid" alt="Client Image">
-                                    </a>
-                                    <a href="https://www.instagram.com/swiftbeaute">
-                                        <img src="<?php echo base_url() . 'theme/images/swift.png' ?>" class="d-block img-fluid" alt="Client Image">
-                                    </a>
-                                    <a href="https://www.sotoijomonjali.com/">
-                                        <img src="<?php echo base_url() . 'theme/images/soim.png' ?>" class="d-block img-fluid" alt="Client Image">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="d-flex justify-content-around">
-                                    <a href="#">
-                                        <img src="<?php echo base_url() . 'theme/images/nst.png' ?>" class="d-block img-fluid" alt="Client Image">
-                                    </a>
-                                    <a href="http://cleanee.my.id/">
-                                        <img src="<?php echo base_url() . 'theme/images/cleanee.png' ?>" class="d-block img-fluid" alt="Client Image">
-                                    </a>
-                                    <a href="https://projectprofilebuyr.vercel.app/">
-                                        <img src="<?php echo base_url() . 'theme/images/buyr.png' ?>" class="d-block img-fluid" alt="Client Image">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
+    <!--============================= OUR COURSES =============================-->
+    <section class="event" style="box-shadow: rgba(0, 0, 0, 0.56) 0px 20px 90px 4px; padding: 40px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Video</h2>
+                <br><br>
             </div>
         </div>
-    </section> -->
-    <!-- 
+
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <iframe style="width: 100%; height: 300px;" allowfullscreen="allowfullscreen"
+                    mozallowfullscreen="mozallowfullscreen"
+                    msallowfullscreen="msallowfullscreen"
+                    oallowfullscreen="oallowfullscreen"
+                    webkitallowfullscreen="webkitallowfullscreen"
+                    src="https://www.youtube.com/embed/ELU66v5k-RI">
+                </iframe>
+            </div>
+            <div class="col-lg-6" style="text-align: justify;">
+                <p><b>Tutorial Register Account, Checkout and Payment Order</b><br><br>
+                    Tonton video berikut untuk mengetahui proses dan langkah-langkah mudah membuat akun di IEGCODE dan langkah-langkah proses checkout pesanan dan pembayaran setelah produk Anda pesan. Silakan tonton video tutorial kami untuk penjelasan lebih lengkap.😉</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--//END OUR COURSES -->
+
+    <section class="our_courses" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; padding: 40px 0;">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Client</h2>
+            </div>
+        </div>
+        <div class="logo-container mt-4">
+            <div class="logo">
+                <img src="<?php echo base_url() . 'theme/images/eskamuga.png' ?>" alt="Eskamuga" />
+                <img src="<?php echo base_url() . 'theme/images/soim.png' ?>" alt="SOIM" />
+                <img src="<?php echo base_url() . 'theme/images/nst.png' ?>" alt="NST" />
+                <img src="<?php echo base_url() . 'theme/images/buyr.png' ?>" alt="Buyr" />
+                <img src="<?php echo base_url() . 'theme/images/cleanee.png' ?>" alt="Cleanee" />
+                <img src="<?php echo base_url() . 'theme/images/swift.png' ?>" alt="Swift" />
+                <img src="<?php echo base_url() . 'theme/images/nandan.png' ?>" alt="Nandan" />
+            </div>
+        </div>
+    </div>
+</section>
+
 <style>
-    .carousel-inner {
-        padding: 0;
+    .logo-container {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 5rem;
     }
 
-    .carousel-item img {
-        border-radius: 0;
-        max-width: 100%;
-        height: auto;
+    .logo {
+        display: flex;
+        gap: 3rem;
+        padding: 1rem;
+        animation: infinite-scroll 15s linear infinite;
     }
 
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-        background-color: rgba(0, 0, 0, 0.5); /* For better visibility */
+    .logo img {
+        height: 3rem;
+        object-fit: contain;
+    }
+
+    @keyframes infinite-scroll {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-100%);
+        }
     }
 
     @media (max-width: 768px) {
-        .carousel-item img {
-            max-height: 150px; /* Adjust for tablets */
-        }
-    }
-
-    @media (max-width: 576px) {
-        .carousel-item img {
-            max-height: 100px; /* Adjust for mobile */
-        }
-    }
-</style> -->
-
-
-    <!--============================= OUR COURSES =============================-->
-    <section class="event" style="box-shadow: rgba(0, 0, 0, 0.56) 0px 20px 90px 4px;">
-        <div class="container" style="width: 100%;">
-            <div class="row">
-                <div class="col-md-12" style="text-align:center;">
-                    <h2 style="text-align:center;" align="center">Video</h2><br><br>
-                </div>
-            </div>
-
-            <div class="row marg" align="center">
-                <div class="col-md-6">
-                    <iframe style="width: 100%; height: 250px" allowfullscreen="allowfullscree"
-                        mozallowfullscreen="mozallowfullscreen"
-                        msallowfullscreen="msallowfullscreen"
-                        oallowfullscreen="oallowfullscreen"
-                        webkitallowfullscreen="webkitallowfullscreen"
-                        src="https://www.youtube.com/embed/ELU66v5k-RI">
-                    </iframe>
-                </div>
-                <div class="col-md-6" align="justify">
-                    <p><b>Tutorial Register Account, Checkout and Payment Order</b><br><br>
-                        Tonton video berikut untuk mengetahui proses dan langkah-langkah mudah membuat akun di IEGCOCDE dan langkah-langkah proses checkout pesanan dan pembayaran setelah produk Anda pesan. Silakan tonton video tutorial kami untuk penjelasan lebih lengkap.😉</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--//END OUR COURSES -->
-
-    <section class="our_courses" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;">
-        <div class="container" style="" align="center">
-            <div class="row" align="center" style="width: 100%;text-align: center;">
-                <div class="col-md-12" align="center">
-                    <h2>Client</h2>
-                </div>
-            </div>
-        </div>
-        <div class="logo-container">
-            <div class="logo">
-                <img
-                    src="<?php echo base_url() . 'theme/images/eskamuga.png' ?>"
-                    alt="Microsoft" />
-                <img
-                    src="<?php echo base_url() . 'theme/images/soim.png' ?>"
-                    alt="Airbnb" />
-                <img
-                    src="<?php echo base_url() . 'theme/images/nst.png' ?>"
-                    alt="Airbnb" />
-                <img
-                    src="<?php echo base_url() . 'theme/images/buyr.png' ?>"
-                    alt="Airbnb" />
-                <img
-                    src="<?php echo base_url() . 'theme/images/cleanee.png' ?>"
-                    alt="Airbnb" />
-                <img
-                    src="<?php echo base_url() . 'theme/images/swift.png' ?>"
-                    alt="Airbnb" />
-            </div>
-    </section>
-    <style>
-        img {
-            max-width: 100%;
-        }
-
         .logo-container {
-            overflow: hidden;
-            display: flex;
+            height: 4rem;
         }
-
-        .logo {
-            display: flex;
-            flex-shrink: 0;
-            gap: 3rem;
-            padding: 1rem;
-            animation: inifite-scroll 5s linear infinite;
-        }
-
         .logo img {
-            height: 3rem;
+            height: 2.5rem;
         }
-
-        @keyframes inifite-scroll {
-            from {
-                transform: translateX(0);
-            }
-
-            to {
-                transform: translateX(-100%);
-            }
+        .logo {
+            gap: 2rem;
         }
-    </style>
-    <script>
-        const logo = document.querySelector(".logo").cloneNode(true);
+    }
+</style>
 
-        document.querySelector(".logo-container").appendChild(logo);
-    </script>
+<script>
+    // Duplicate the logo row for smooth infinite scrolling
+    const logo = document.querySelector(".logo").cloneNode(true);
+    document.querySelector(".logo-container").appendChild(logo);
+</script>
+
     <?php
     $this->load->view('depan/Crumbs/v_footer');
     ?>
