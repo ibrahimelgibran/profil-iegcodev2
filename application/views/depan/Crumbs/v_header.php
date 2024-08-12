@@ -1,7 +1,7 @@
 <style type="text/css">
     .nav-menu2 .navbar-light .navbar-nav .nav-link:hover {
-    color: #000000;
-    border-bottom: 3px solid #000000;
+    color: #267ae8;
+    border-bottom: 3px solid #267ae8;
 }
 .active{
     color: #000000;
@@ -16,22 +16,22 @@
                 <div class="col-xs-6 col-sm-8 col-md-9">
                     <div class="header-top_address">
                         <div class="header-top_list">
-                            <span class="icon-phone"></span>+62 858 6572 2792
+                            <span class="icon-phone"></span>+62 858 7607 6005
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-envelope-open"></span>ashsholawaatsragen@gmail.com
+                            <span class="icon-envelope-open"></span>elgibran@iegcode.com
                         </div>
                         <div class="header-top_list">
-                            <span class="icon-location-pin"></span>Sragen, Jawa Tengah.
+                            <span class="icon-location-pin"></span>Sleman, Yogyakarta.
                         </div>
                     </div>
                     <div class="header-top_login2" style="">
-                        <a href="<?php echo site_url('Contact');?>">HUBUNGI KAMI</a>
+                        <a href="<?php echo site_url('Contact'); ?>">HUBUNGI KAMI</a>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <div class="header-top_login mr-sm-3">
-                        <a href="<?php echo site_url('Contact');?>">HUBUNGI KAMI</a>
+                        <a href="<?php echo site_url('Contact'); ?>">HUBUNGI KAMI</a>
                     </div>
                 </div>
             </div>
@@ -45,12 +45,12 @@
                         <button class="navbar-toggler navbar-toggler2 navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                             <span  class="icon-menu"></span>
                         </button>
-                        <a style="padding-left: 5px;" href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="75%;" src="<?php echo base_url().'theme/images/logo-dark.png'?>"></a>
+                        <a style="padding-left: 5px;" href="<?php echo site_url('');?>" class="navbar-brand nav-brand2"><img class="img img-responsive" width="75%;" src="<?php echo base_url().'theme/images/iegcode.png'?>"></a>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" style="float: right;">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="<?php echo site_url('');?>" style="color: #000000;
-    border-bottom: 3px solid #000000;"><b>HOME</b></a>
+                                    <a class="nav-link active" href="<?php echo site_url('');?>" style="color: #267ae8;
+    border-bottom: 3px solid #267ae8;"><b>HOME</b></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('about');?>"><b>PROFIL</b></a>

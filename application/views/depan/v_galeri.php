@@ -217,7 +217,36 @@
         </div>
       </div>
       <!--//End Style 2 -->
+      <styl>
+  .all.img-fluid {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+  }
 
+  .carousel-inner {
+    padding: 0 15px; /* Mengurangi padding untuk layar kecil */
+  }
+
+  .carousel-item .row .col-sm-4 {
+    padding-bottom: 15px; 
+  }
+
+  @media (max-width: 768px) {
+    .carousel-inner {
+      padding: 0 10px; /* Mengurangi padding lebih lanjut di layar lebih kecil */
+    }
+
+    .carousel-item .row .col-sm-4 {
+      padding-bottom: 10px; /* Menambahkan padding bawah antara gambar */
+    }
+
+    #gallery-content-center a {
+      width: 100%;
+      margin-bottom: 15px; 
+    }
+  }
+</style>
     </div>
   </div>
   <!--//End Gallery -->

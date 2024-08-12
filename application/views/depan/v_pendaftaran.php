@@ -57,7 +57,7 @@
         /* Mengatur iframe agar responsif */
         iframe {
             width: 100%;
-            height: auto;
+            height: 500px;
             border: none;
         }
         .nav-menu2 .navbar-light .navbar-nav .nav-link:hover {

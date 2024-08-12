@@ -628,7 +628,6 @@
     .logo-container {
         overflow: hidden;
         display: flex;
-        justify-content: center;
         align-items: center;
         position: relative;
         height: 5rem;
@@ -636,9 +635,10 @@
 
     .logo {
         display: flex;
+        flex-shrink: 0;
         gap: 3rem;
         padding: 1rem;
-        animation: infinite-scroll 15s linear infinite;
+        animation: infinite-scroll 10s linear infinite;
     }
 
     .logo img {

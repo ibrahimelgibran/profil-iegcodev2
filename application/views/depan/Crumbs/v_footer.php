@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-md-3">
                   <div class="sitemap">
-                      <h3>Akademik</h3>
+                      <h3>Informasi</h3>
                       <ul>
                           <li><a href="<?php echo site_url('pengumuman');?>">Pengumuman</a></li>
                           <li><a href="<?php echo site_url('agenda');?>">Agenda</a></li>
