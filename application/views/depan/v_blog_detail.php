@@ -331,11 +331,12 @@
             			showLabel: true,
             			shareIn: "popup",
             			shares: [
+            			{ share: "whatsapp", label: "Whatsapp" },
             			{ share: "twitter", label: "Twitter" },
             			{ share: "facebook", label: "Facebook" },
             			{ share: "googleplus", label: "Google+" },
             			{ share: "linkedin", label: "Linked In" },
-                  { share: "pinterest", label: "Pinterest" }
+                        { share: "pinterest", label: "Pinterest" }
             			]
                 });
           });

@@ -6,6 +6,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Platform untuk software house dan situs web e-commerce untuk bisnis Anda yang memenuhi kebutuhan Anda 🛒.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot-news" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta property="og:title" content="Platform software house dan web e-commerce." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="iegcode, iegcodeacademy, software house iegcode, e-commerce, ieg, code, coding, iegcode teknologi, company iegcode">
+    <meta property="og:url" content="https://www.iegcode.com/"/>
+    <meta property="og:description" content="Platform untuk software house dan situs web e-commerce untuk bisnis Anda yang memenuhi kebutuhan Anda 🛒."/>
+    <meta property="og:image" content="https://profil.iegcode.com/theme/images/ieg.png"/>
     <title>SELAMAT DATANG DI PROFIL IEGCODE</title>
     <link rel="shorcut icon" href="<?php echo base_url() . 'theme/images/ieg.png' ?>">
     <!-- Bootstrap CSS -->
@@ -16,6 +25,7 @@
     <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/font-awesome.min.css' ?>">
     <!-- Simple Line Font -->
     <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/simple-line-icons.css' ?>">
+    <link rel="canonical" href="https://iegcode.com" />
     <!-- Slider / Carousel -->
     <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/slick.css' ?>">
     <link rel="stylesheet" href="<?php echo base_url() . 'theme/css/slick-theme.css' ?>">
