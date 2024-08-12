@@ -26,10 +26,10 @@
 <body>
   <!--============================= HEADER =============================-->
   <style type="text/css">
-    .nav-menu2 .navbar-light .navbar-nav .nav-link:hover {
-    color: #267ae8;
-    border-bottom: 3px solid #267ae8;
-}
+   .nav-menu2 .navbar-light .navbar-nav .nav-link:hover {
+            color: #267ae8;
+            border-bottom: 3px solid #267ae8;
+        }
 </style>
     <!--============================= HEADER =============================-->
     <div class="header-topbar" style="background: #000000;">
@@ -85,8 +85,8 @@
                                     <a class="nav-link" href="<?php echo site_url('blog');?>"><b>ARTIKEL</b></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo site_url('pengumuman');?>" style="color: #000000;
-    border-bottom: 3px solid #000000;"><b>PENGUMUMAN</b></a>
+                                    <a class="nav-link" href="<?php echo site_url('pengumuman');?>" style="color: #267ae8;
+    border-bottom: 3px solid #267ae8;"><b>PENGUMUMAN</b></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo site_url('agenda');?>"><b>AGENDA</b></a>

@@ -60,6 +60,10 @@
             height: auto;
             border: none;
         }
+        .nav-menu2 .navbar-light .navbar-nav .nav-link:hover {
+            color: #267ae8;
+            border-bottom: 3px solid #267ae8;
+        }
     </style>
     <!--============================= HEADER =============================-->
     <div class="header-topbar" style="background: #000000;">
